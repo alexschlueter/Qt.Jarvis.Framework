@@ -22,7 +22,9 @@ SOURCES += main.cpp \
     ../../../../gitProjects/Jarvis/Framework/Deque.cpp \
     ../../../../gitProjects/Jarvis/Framework/Container.cpp \
     ../../../../gitProjects/Jarvis/Framework/ArithmeticExpression.cpp \
-    ../../../../gitProjects/Jarvis/Framework/Alphabet.cpp
+    ../../../../gitProjects/Jarvis/Framework/Alphabet.cpp \
+    ../../../../gitProjects/Jarvis/Framework/Arithmetic/Sinus.cpp \
+    ../../../../gitProjects/Jarvis/Framework/Arithmetic/Addition.cpp
 
 OTHER_FILES += \
     ../../../../gitProjects/Jarvis/Framework/README.md \
@@ -50,5 +52,11 @@ HEADERS += \
     ../../../../gitProjects/Jarvis/Framework/Deque.h \
     ../../../../gitProjects/Jarvis/Framework/Container.h \
     ../../../../gitProjects/Jarvis/Framework/ArithmeticExpression.h \
-    ../../../../gitProjects/Jarvis/Framework/Alphabet.h
+    ../../../../gitProjects/Jarvis/Framework/Alphabet.h \
+    ../../../../gitProjects/Jarvis/Framework/Arithmetic/Sinus.h \
+    ../../../../gitProjects/Jarvis/Framework/Arithmetic/EvalInfo.h \
+    ../../../../gitProjects/Jarvis/Framework/Arithmetic/Addition.h \
+    ../../../../gitProjects/Jarvis/Framework/Arithmetic/AbstractUnaryOperation.h \
+    ../../../../gitProjects/Jarvis/Framework/Arithmetic/AbstractBinaryOperation.h \
+    ../../../../gitProjects/Jarvis/Framework/Arithmetic/AbstractArithmetic.h
 
