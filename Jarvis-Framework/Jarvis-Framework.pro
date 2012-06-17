@@ -21,7 +21,6 @@ SOURCES += main.cpp \
     ../../../../gitProjects/Jarvis/Framework/Exception.cpp \
     ../../../../gitProjects/Jarvis/Framework/Deque.cpp \
     ../../../../gitProjects/Jarvis/Framework/Container.cpp \
-    ../../../../gitProjects/Jarvis/Framework/ArithmeticExpression.cpp \
     ../../../../gitProjects/Jarvis/Framework/Alphabet.cpp \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Sinus.cpp \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Addition.cpp
