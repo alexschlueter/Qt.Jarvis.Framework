@@ -1,1 +1,4 @@
 *.pro.user
+Makefile*
+debug/
+vc100.pdb
