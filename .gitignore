@@ -1,4 +1,5 @@
 *.pro.user
 Makefile*
 debug/
+release/
 vc100.pdb
