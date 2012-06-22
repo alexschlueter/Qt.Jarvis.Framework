@@ -29,13 +29,13 @@ SOURCES +=  main.cpp \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Exponentiation.cpp \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Division.cpp \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Cosinus.cpp \
-    ../../../../gitProjects/Jarvis/Framework/Arithmetic/Number.Arith.cpp
+    ../../../../gitProjects/Jarvis/Framework/Arithmetic/Number.Arith.cpp \
     ../../../../gitProjects/Jarvis/Framework/Container/Alphabet.cpp \
     ../../../../gitProjects/Jarvis/Framework/Container/Stack.cpp \
     ../../../../gitProjects/Jarvis/Framework/Container/Set.cpp \
     ../../../../gitProjects/Jarvis/Framework/Container/Queue.cpp \
     ../../../../gitProjects/Jarvis/Framework/Container/Deque.cpp \
-    ../../../../gitProjects/Jarvis/Framework/Container/Container.cpp \
+    ../../../../gitProjects/Jarvis/Framework/Container/Container.cpp
 
 OTHER_FILES += \
     ../../../../gitProjects/Jarvis/Framework/Container/SmartNode.cpp \
@@ -61,7 +61,6 @@ HEADERS += \
     ../../../../gitProjects/Jarvis/Framework/Graph.h \
     ../../../../gitProjects/Jarvis/Framework/Expression.h \
     ../../../../gitProjects/Jarvis/Framework/Exception.h \
-
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Sinus.h \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/EvalInfo.h \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Addition.h \
@@ -80,7 +79,7 @@ HEADERS += \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/EvalInfo.h \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Division.h \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Cosinus.h \
-    ../../../../gitProjects/Jarvis/Framework/Arithmetic/NumberArith.h
+    ../../../../gitProjects/Jarvis/Framework/Arithmetic/NumberArith.h \
     ../../../../gitProjects/Jarvis/Framework/Container/Stack.h \
     ../../../../gitProjects/Jarvis/Framework/Container/SmartNode.h \
     ../../../../gitProjects/Jarvis/Framework/Container/SmartList.h \
