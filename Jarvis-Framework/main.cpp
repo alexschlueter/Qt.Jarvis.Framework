@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-    CAS::Sinus s;
+    //CAS::Sinus s;
     cout << "Hello World!" << endl;
     return 0;
 }

@@ -1,6 +1,7 @@
 TEMPLATE = app
 CONFIG += console
 CONFIG -= qt
+QMAKE_CXXFLAGS += -std=c++11
 
 SOURCES += main.cpp \
     ../../../../gitProjects/Jarvis/Framework/Word.cpp \
@@ -22,14 +23,12 @@ SOURCES += main.cpp \
     ../../../../gitProjects/Jarvis/Framework/Deque.cpp \
     ../../../../gitProjects/Jarvis/Framework/Container.cpp \
     ../../../../gitProjects/Jarvis/Framework/Alphabet.cpp \
-    ../../../../gitProjects/Jarvis/Framework/Arithmetic/Sinus.cpp \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Addition.cpp \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Variable.cpp \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Tangent.cpp \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Subtraction.cpp \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Sinus.cpp \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Root.cpp \
-    ../../../../gitProjects/Jarvis/Framework/Arithmetic/Number.cpp \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Multiplication.cpp \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Logarithm.cpp \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Integral.cpp \
@@ -37,7 +36,7 @@ SOURCES += main.cpp \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Exponentiation.cpp \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Division.cpp \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Cosinus.cpp \
-    ../../../../gitProjects/Jarvis/Framework/Arithmetic/Addition.cpp
+    ../../../../gitProjects/Jarvis/Framework/Arithmetic/Number.Arith.cpp
 
 OTHER_FILES += \
     ../../../../gitProjects/Jarvis/Framework/README.md \
@@ -76,7 +75,6 @@ HEADERS += \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Tangent.h \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Subtraction.h \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Root.h \
-    ../../../../gitProjects/Jarvis/Framework/Arithmetic/Number.h \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Multiplication.h \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Logarithm.h \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Integral.h \
@@ -84,5 +82,6 @@ HEADERS += \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Exponentiation.h \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/EvalInfo.h \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Division.h \
-    ../../../../gitProjects/Jarvis/Framework/Arithmetic/Cosinus.h
+    ../../../../gitProjects/Jarvis/Framework/Arithmetic/Cosinus.h \
+    ../../../../gitProjects/Jarvis/Framework/Arithmetic/NumberArith.h
 
