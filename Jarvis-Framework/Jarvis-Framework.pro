@@ -1,4 +1,4 @@
-TEMPLATE = app
+TEMPLATE = lib
 CONFIG += console
 CONFIG -= qt
 QMAKE_CXXFLAGS += -std=c++11
