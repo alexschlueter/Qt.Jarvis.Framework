@@ -50,5 +50,6 @@ HEADERS += \
     ../../../../gitProjects/Jarvis/Framework/Deque.h \
     ../../../../gitProjects/Jarvis/Framework/Container.h \
     ../../../../gitProjects/Jarvis/Framework/ArithmeticExpression.h \
-    ../../../../gitProjects/Jarvis/Framework/Alphabet.h
+    ../../../../gitProjects/Jarvis/Framework/Alphabet.h \
+    ../../../../gitProjects/Jarvis/Framework/global.h
 

@@ -1,4 +1,8 @@
-*.pro.user
+*.pro.user*
+*.autosave
+*.Debug
+*.Release
+release/
 Makefile*
 debug/
 vc100.pdb
