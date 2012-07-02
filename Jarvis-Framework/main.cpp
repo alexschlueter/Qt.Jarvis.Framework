@@ -18,19 +18,23 @@ int main()
 
 */
 
-#include "../../../../gitProjects/Jarvis/Framework/Container/SmartList.h"
+#include "../../../../gitProjects/Jarvis/Framework/Container/RepetitiveList.h"
+#include <memory>
+#include <list>
 
 using namespace std;
 using namespace CAS;
 
 int main()
 {
-    SmartList<int> slist;
-    slist.append(1);
-    int &rc = slist[0];
-    SmartList<int> copy(slist);
-    rc = 3;
-    for (SmartList<int>::iterator it = copy.begin(); it != copy.end(); ++it)
-        cout << *it;
+    RepetitiveList<int> l;
+    l.append(1);
+    for (int i = 0; i < 100000; i++) l.append(i);
+    l.prepend(-1);
+    l.insert(-100, 50);
+    RepetitiveList<int> c(l);
+    //for (RepetitiveList<int>::const_iterator it = c.begin(); it != c.end(); ++it) cout << *it;
+    RepetitiveList<int> klaut(std::move(l));
+    for (RepetitiveList<int>::const_iterator it = c.begin(); it != c.end(); ++it) cout << *it;
     return 0;
 }
