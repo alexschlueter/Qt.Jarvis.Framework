@@ -78,4 +78,5 @@ HEADERS += \
     ../../../../gitProjects/Jarvis/Framework/Container/AbstractNode.h \
     ../../../../gitProjects/Jarvis/Framework/Container/AbstractListData.h \
     ../../../../gitProjects/Jarvis/Framework/Container/AbstractList.h \
-    ../../../../gitProjects/Jarvis/Framework/Container/AbstractLinkedList.h
+    ../../../../gitProjects/Jarvis/Framework/Container/AbstractLinkedList.h \
+    ../../../../gitProjects/Jarvis/Framework/global.h
