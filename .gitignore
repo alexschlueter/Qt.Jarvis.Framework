@@ -5,3 +5,4 @@ release/
 vc100.pdb
 *.Debug
 *.Release
+*.autosave
