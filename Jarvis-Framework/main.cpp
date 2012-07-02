@@ -1,12 +1,12 @@
 #include <iostream>
-#include "../../../../gitProjects/Jarvis/Framework/Arithmetic/Sinus.h"
+#include "../../../../gitProjects/Jarvis/Framework/Arithmetic/NumberArith.h"
 
 using namespace std;
 
 int main()
 {
     //CAS::Sinus s;
-    cout << "Hello World!" << endl;
+    cout << CAS::NumberArith(134).getString() << endl;
     return 0;
 }
 
