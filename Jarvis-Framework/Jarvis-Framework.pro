@@ -29,7 +29,7 @@ SOURCES +=  \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Exponentiation.cpp \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Division.cpp \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Cosinus.cpp \
-    ../../../../gitProjects/Jarvis/Framework/Arithmetic/Number.Arith.cpp \
+    ../../../../gitProjects/Jarvis/Framework/Arithmetic/NumberArith.cpp \
     ../../../../gitProjects/Jarvis/Framework/Container/Alphabet.cpp \
     ../../../../gitProjects/Jarvis/Framework/Container/Stack.cpp \
     ../../../../gitProjects/Jarvis/Framework/Container/Set.cpp \
