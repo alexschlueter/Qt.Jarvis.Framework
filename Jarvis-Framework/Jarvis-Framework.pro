@@ -36,7 +36,7 @@ SOURCES += main.cpp \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Exponentiation.cpp \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Division.cpp \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Cosinus.cpp \
-    ../../../../gitProjects/Jarvis/Framework/Arithmetic/Number.Arith.cpp
+    ../../../../gitProjects/Jarvis/Framework/Arithmetic/NumberArith.cpp
 
 OTHER_FILES += \
     ../../../../gitProjects/Jarvis/Framework/README.md \
