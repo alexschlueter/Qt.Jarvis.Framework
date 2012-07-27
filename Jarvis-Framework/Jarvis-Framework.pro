@@ -1,5 +1,5 @@
 TEMPLATE = lib
-#CONFIG += console
+CONFIG += staticlib
 CONFIG -= qt
 QMAKE_CXXFLAGS += -std=c++11
 
