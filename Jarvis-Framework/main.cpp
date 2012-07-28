@@ -20,21 +20,12 @@ int main()
 
 #include "../../../../gitProjects/Jarvis/Framework/Container/RepetitiveList.h"
 #include <memory>
-#include <list>
 
 using namespace std;
 using namespace CAS;
 
 int main()
 {
-    RepetitiveList<int> l;
-    l.append(1);
-    for (int i = 0; i < 100000; i++) l.append(i);
-    l.prepend(-1);
-    l.insert(-100, 50);
-    RepetitiveList<int> c(l);
-    //for (RepetitiveList<int>::const_iterator it = c.begin(); it != c.end(); ++it) cout << *it;
-    RepetitiveList<int> klaut(std::move(l));
-    for (RepetitiveList<int>::const_iterator it = c.begin(); it != c.end(); ++it) cout << *it;
+    LinkedList<int> list;
     return 0;
 }
