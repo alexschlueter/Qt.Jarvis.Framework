@@ -1,12 +1,15 @@
 #include <iostream>
-#include "../../../../gitProjects/Jarvis/Framework/Arithmetic/NumberArith.h"
+#include "../../../../gitProjects/Jarvis/Framework/Arithmetic/Multiplication.h"
 
 using namespace std;
+
+std::unique_ptr<int> a() { return new int(1); }
 
 int main()
 {
     //CAS::Sinus s;
-    cout << CAS::NumberArith(134).getString() << endl;
+    a();
+    //cout << CAS::Multiplication().getString() << endl;
     return 0;
 }
 
