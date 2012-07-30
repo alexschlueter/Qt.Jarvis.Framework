@@ -26,6 +26,12 @@ using namespace CAS;
 
 int main()
 {
-    LinkedList<int> list;
+    LinkedList<int> list, derp;
+    derp.append(1);
+    derp.append(2);
+    derp.append(3);
+    list.append(4);
+    list += derp;
+    for (auto herp : list) cout << herp;
     return 0;
 }
