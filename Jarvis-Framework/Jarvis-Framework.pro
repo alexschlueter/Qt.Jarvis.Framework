@@ -36,7 +36,8 @@ SOURCES += main.cpp \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Exponentiation.cpp \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Division.cpp \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Cosinus.cpp \
-    ../../../../gitProjects/Jarvis/Framework/Arithmetic/NumberArith.cpp
+    ../../../../gitProjects/Jarvis/Framework/Arithmetic/NumberArith.cpp \
+    ../../../../gitProjects/Jarvis/Framework/Arithmetic/Assignment.cpp
 
 OTHER_FILES += \
     ../../../../gitProjects/Jarvis/Framework/README.md \
@@ -83,5 +84,6 @@ HEADERS += \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/EvalInfo.h \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Division.h \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Cosinus.h \
-    ../../../../gitProjects/Jarvis/Framework/Arithmetic/NumberArith.h
+    ../../../../gitProjects/Jarvis/Framework/Arithmetic/NumberArith.h \
+    ../../../../gitProjects/Jarvis/Framework/Arithmetic/Assignment.h
 
