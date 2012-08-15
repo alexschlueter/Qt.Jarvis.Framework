@@ -2,14 +2,12 @@
 #include "../../../../gitProjects/Jarvis/Framework/Arithmetic/Multiplication.h"
 
 using namespace std;
-
-std::unique_ptr<int> a() { return new int(1); }
+using namespace CAS;
 
 int main()
 {
-    //CAS::Sinus s;
-    a();
-    //cout << CAS::Multiplication().getString() << endl;
+    Multiplication m1(std::unique_ptr<NumberArith>(new NumberArith(3)), std::unique_ptr<NumberArith>(new NumberArith(2)));
+    Multiplication m2(m1);
     return 0;
 }
 
