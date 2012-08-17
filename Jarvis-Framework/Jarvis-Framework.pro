@@ -1,8 +1,10 @@
 TEMPLATE = lib
-CONFIG += staticlib
+#CONFIG += staticlib
 CONFIG -= qt
 QMAKE_CXXFLAGS += -std=c++11
 
+Debug: DESTDIR = D:/Users/Alexander/Documents/gitProjects/Jarvis/Framework/debug
+Release: DESTDIR = D:/Users/Alexander/Documents/gitProjects/Jarvis/Framework/release
 SOURCES +=  \
     ../../../../gitProjects/Jarvis/Framework/Word.cpp \
     ../../../../gitProjects/Jarvis/Framework/Vector.cpp \
@@ -36,7 +38,6 @@ SOURCES +=  \
     ../../../../gitProjects/Jarvis/Framework/Container/Queue.cpp \
     ../../../../gitProjects/Jarvis/Framework/Container/Deque.cpp \
     ../../../../gitProjects/Jarvis/Framework/Container/Container.cpp \
-    ../../../../gitProjects/Jarvis/Framework/Arithmetic/Assignment.cpp
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Assignment.cpp \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/AbstractLevelingOperation.cpp
 
@@ -107,6 +108,5 @@ HEADERS += \
     ../../../../gitProjects/Jarvis/Framework/Container/AbstractListData.h \
     ../../../../gitProjects/Jarvis/Framework/Container/AbstractList.h \
     ../../../../gitProjects/Jarvis/Framework/Container/AbstractLinkedList.h \
-    ../../../../gitProjects/Jarvis/Framework/Arithmetic/Assignment.h
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Assignment.h \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/AbstractLevelingOperation.h
