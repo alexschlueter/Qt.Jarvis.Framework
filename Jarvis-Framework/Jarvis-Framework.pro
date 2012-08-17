@@ -37,6 +37,8 @@ SOURCES +=  \
     ../../../../gitProjects/Jarvis/Framework/Container/Deque.cpp \
     ../../../../gitProjects/Jarvis/Framework/Container/Container.cpp \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Assignment.cpp
+    ../../../../gitProjects/Jarvis/Framework/Arithmetic/Assignment.cpp \
+    ../../../../gitProjects/Jarvis/Framework/Arithmetic/AbstractLevelingOperation.cpp
 
 OTHER_FILES += \
     ../../../../gitProjects/Jarvis/Framework/Container/SmartNode.cpp \
@@ -106,3 +108,5 @@ HEADERS += \
     ../../../../gitProjects/Jarvis/Framework/Container/AbstractList.h \
     ../../../../gitProjects/Jarvis/Framework/Container/AbstractLinkedList.h \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Assignment.h
+    ../../../../gitProjects/Jarvis/Framework/Arithmetic/Assignment.h \
+    ../../../../gitProjects/Jarvis/Framework/Arithmetic/AbstractLevelingOperation.h
