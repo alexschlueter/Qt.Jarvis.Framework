@@ -4,6 +4,7 @@
 #include "../../../../gitProjects/Jarvis/Framework/Arithmetic/Variable.h"
 #include "../../../../gitProjects/Jarvis/Framework/Arithmetic/Function.h"
 #include "../../../../gitProjects/Jarvis/Framework/Arithmetic/Addition.h"
+#include "Arithmetic/Exponentiation.h"
 #include "global.h"
 
 using namespace std;
@@ -17,10 +18,10 @@ int main()
     //Multiplication m2(m1);
 
     EvalInfo ei;
-    ei.functions[make_pair("f", 2)] = make_pair<vector<string>>({"x", "y"}, make_unique<Addition>(make_unique<Variable>("x"), make_unique<Variable>("y")));
+    ei.functions[make_pair("f", 2)] = make_pair<vector<string>>({"x", "y"}, make_unique<Exponentiation>(make_unique<Variable>("x"), make_unique<Variable>("y")));
     vector<unique_ptr<AbstractArithmetic>> funcops;
-    funcops.emplace_back(make_unique<Variable>("g"));
-    funcops.emplace_back(make_unique<Variable>("g"));
+    funcops.emplace_back(make_unique<NumberArith>(2));
+    funcops.emplace_back(make_unique<NumberArith>(3));
     cout << Function("f", std::move(funcops)).eval(ei)->toString();
 return 0;
 }
