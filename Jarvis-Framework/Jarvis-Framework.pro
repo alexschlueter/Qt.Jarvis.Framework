@@ -5,6 +5,7 @@ CONFIG -= qt
 SOURCES += main.cpp \
     ../../../../gitProjects/Jarvis/Framework/Word.cpp \
     ../../../../gitProjects/Jarvis/Framework/Vector.cpp \
+    ../../../../gitProjects/Jarvis/Framework/Utility.cpp \
     ../../../../gitProjects/Jarvis/Framework/Tree.cpp \
     ../../../../gitProjects/Jarvis/Framework/Stack.cpp \
     ../../../../gitProjects/Jarvis/Framework/Set.cpp \
@@ -12,6 +13,7 @@ SOURCES += main.cpp \
     ../../../../gitProjects/Jarvis/Framework/Queue.cpp \
     ../../../../gitProjects/Jarvis/Framework/Object.cpp \
     ../../../../gitProjects/Jarvis/Framework/Number.cpp \
+    ../../../../gitProjects/Jarvis/Framework/Natural.cpp \
     ../../../../gitProjects/Jarvis/Framework/Matrix.cpp \
     ../../../../gitProjects/Jarvis/Framework/MathObject.cpp \
     ../../../../gitProjects/Jarvis/Framework/List.cpp \
@@ -24,15 +26,15 @@ SOURCES += main.cpp \
     ../../../../gitProjects/Jarvis/Framework/ArithmeticExpression.cpp \
     ../../../../gitProjects/Jarvis/Framework/Alphabet.cpp
 
+
 OTHER_FILES += \
-    ../../../../gitProjects/Jarvis/Framework/README.md \
-    ../../../../gitProjects/Jarvis/Framework/.gitignore \
     ../../../../gitProjects/Jarvis/Framework/README.md \
     ../../../../gitProjects/Jarvis/Framework/.gitignore
 
 HEADERS += \
     ../../../../gitProjects/Jarvis/Framework/Word.h \
     ../../../../gitProjects/Jarvis/Framework/Vector.h \
+    ../../../../gitProjects/Jarvis/Framework/Utility.h \
     ../../../../gitProjects/Jarvis/Framework/Tree.h \
     ../../../../gitProjects/Jarvis/Framework/Stack.h \
     ../../../../gitProjects/Jarvis/Framework/Set.h \
@@ -40,6 +42,7 @@ HEADERS += \
     ../../../../gitProjects/Jarvis/Framework/Queue.h \
     ../../../../gitProjects/Jarvis/Framework/Object.h \
     ../../../../gitProjects/Jarvis/Framework/Number.h \
+    ../../../../gitProjects/Jarvis/Framework/Natural.h \
     ../../../../gitProjects/Jarvis/Framework/Matrix.h \
     ../../../../gitProjects/Jarvis/Framework/MathObject.h \
     ../../../../gitProjects/Jarvis/Framework/List.h \
@@ -51,4 +54,5 @@ HEADERS += \
     ../../../../gitProjects/Jarvis/Framework/Container.h \
     ../../../../gitProjects/Jarvis/Framework/ArithmeticExpression.h \
     ../../../../gitProjects/Jarvis/Framework/Alphabet.h
+
 
