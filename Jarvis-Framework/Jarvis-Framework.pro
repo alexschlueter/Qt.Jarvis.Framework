@@ -1,10 +1,10 @@
-TEMPLATE = app
+TEMPLATE = lib
 CONFIG += console
 CONFIG -= qt
 QMAKE_CXXFLAGS += -std=c++11
 INCLUDEPATH += ../../../../gitProjects/Jarvis/Framework
 
-SOURCES += main.cpp \
+SOURCES +=  \
     ../../../../gitProjects/Jarvis/Framework/Word.cpp \
     ../../../../gitProjects/Jarvis/Framework/Vector.cpp \
     ../../../../gitProjects/Jarvis/Framework/Tree.cpp \

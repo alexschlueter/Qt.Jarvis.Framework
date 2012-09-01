@@ -5,6 +5,7 @@
 #include "../../../../gitProjects/Jarvis/Framework/Arithmetic/Function.h"
 #include "../../../../gitProjects/Jarvis/Framework/Arithmetic/Addition.h"
 #include "Arithmetic/Exponentiation.h"
+#include "Arithmetic/Subtraction.h"
 #include "global.h"
 
 using namespace std;
@@ -22,7 +23,7 @@ int main()
     vector<unique_ptr<AbstractArithmetic>> funcops;
     funcops.emplace_back(make_unique<NumberArith>(2));
     funcops.emplace_back(make_unique<NumberArith>(3));
-    cout << Function("f", std::move(funcops)).eval(ei)->toString();
+    cout << Subtraction(make_unique<Addition>(make_unique<Variable>("g"), make_unique<Variable>("g")), make_unique<Multiplication>(make_unique<NumberArith>(2), make_unique<Variable>("g"))).eval(ei)->toString();
 return 0;
 }
 
