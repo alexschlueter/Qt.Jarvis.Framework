@@ -2,6 +2,7 @@ TEMPLATE = app
 CONFIG += console
 CONFIG -= qt
 QMAKE_CXXFLAGS += -std=c++11
+INCLUDEPATH += ../../../../gitProjects/Jarvis/Framework
 
 SOURCES += main.cpp \
     ../../../../gitProjects/Jarvis/Framework/Word.cpp \
@@ -87,5 +88,6 @@ HEADERS += \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Cosinus.h \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/NumberArith.h \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Assignment.h \
-    ../../../../gitProjects/Jarvis/Framework/Arithmetic/AbstractLevelingOperation.h
+    ../../../../gitProjects/Jarvis/Framework/Arithmetic/AbstractLevelingOperation.h \
+    ../../../../gitProjects/Jarvis/Framework/global.h
 

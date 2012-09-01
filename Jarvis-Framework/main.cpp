@@ -1,8 +1,10 @@
 #include <iostream>
+#include "Arithmetic/AbstractArithmetic.h"
 #include "../../../../gitProjects/Jarvis/Framework/Arithmetic/Assignment.h"
 #include "../../../../gitProjects/Jarvis/Framework/Arithmetic/Variable.h"
 #include "../../../../gitProjects/Jarvis/Framework/Arithmetic/Function.h"
 #include "../../../../gitProjects/Jarvis/Framework/Arithmetic/Addition.h"
+#include "global.h"
 
 using namespace std;
 using namespace CAS;
@@ -15,8 +17,11 @@ int main()
     //Multiplication m2(m1);
 
     EvalInfo ei;
-    ei.functions[make_pair("f", 2)] = make_pair<vector<string>>({"x", "y"}, make_shared<Addition>(unique_ptr<Variable>(new Variable("x")), unique_ptr<Variable>(new Variable("y"))));
-cout << Function("f", {shared_ptr<Variable>(new Variable("g")), shared_ptr<Variable>(new Variable("g"))}).eval(ei)->toString();
+    ei.functions[make_pair("f", 2)] = make_pair<vector<string>>({"x", "y"}, make_unique<Addition>(make_unique<Variable>("x"), make_unique<Variable>("y")));
+    vector<unique_ptr<AbstractArithmetic>> funcops;
+    funcops.emplace_back(make_unique<Variable>("g"));
+    funcops.emplace_back(make_unique<Variable>("g"));
+    cout << Function("f", std::move(funcops)).eval(ei)->toString();
 return 0;
 }
 
