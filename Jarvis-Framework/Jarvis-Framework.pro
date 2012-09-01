@@ -3,6 +3,8 @@ TEMPLATE = lib
 CONFIG -= qt
 QMAKE_CXXFLAGS += -std=c++11
 
+INCLUDEPATH += .
+
 Debug: DESTDIR = D:/Users/Alexander/Documents/gitProjects/Jarvis/Framework/debug
 Release: DESTDIR = D:/Users/Alexander/Documents/gitProjects/Jarvis/Framework/release
 SOURCES +=  \
@@ -109,4 +111,5 @@ HEADERS += \
     ../../../../gitProjects/Jarvis/Framework/Container/AbstractList.h \
     ../../../../gitProjects/Jarvis/Framework/Container/AbstractLinkedList.h \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Assignment.h \
-    ../../../../gitProjects/Jarvis/Framework/Arithmetic/AbstractLevelingOperation.h
+    ../../../../gitProjects/Jarvis/Framework/Arithmetic/AbstractLevelingOperation.h \
+    ../../../../gitProjects/Jarvis/Framework/global.h
