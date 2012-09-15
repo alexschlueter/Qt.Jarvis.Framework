@@ -21,7 +21,6 @@ HEADERS += \
     ../../../../gitProjects/Jarvis/Framework/Object.h \
     ../../../../gitProjects/Jarvis/Framework/Number.h \
     ../../../../gitProjects/Jarvis/Framework/Natural.h \
-    ../../../../gitProjects/Jarvis/Framework/Matrix.h \
     ../../../../gitProjects/Jarvis/Framework/MathObject.h \
     ../../../../gitProjects/Jarvis/Framework/Integer.h \
     ../../../../gitProjects/Jarvis/Framework/Graph.h \
@@ -48,30 +47,8 @@ HEADERS += \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/AbstractLevelingOperation.h \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/AbstractBinaryOperation.h \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/AbstractArithmetic.h \
-    ../../../../gitProjects/Jarvis/Framework/Container/Stack.h \
-    ../../../../gitProjects/Jarvis/Framework/Container/SmartNode.h \
-    ../../../../gitProjects/Jarvis/Framework/Container/SmartList.h \
-    ../../../../gitProjects/Jarvis/Framework/Container/SmartLinkedListData.h \
-    ../../../../gitProjects/Jarvis/Framework/Container/SmartLinkedList.h \
-    ../../../../gitProjects/Jarvis/Framework/Container/SmartArrayList.h \
-    ../../../../gitProjects/Jarvis/Framework/Container/Set.h \
-    ../../../../gitProjects/Jarvis/Framework/Container/RepetitiveList.h \
-    ../../../../gitProjects/Jarvis/Framework/Container/RepetitiveLinkedListData.h \
-    ../../../../gitProjects/Jarvis/Framework/Container/RepetitiveLinkedList.h \
-    ../../../../gitProjects/Jarvis/Framework/Container/Queue.h \
-    ../../../../gitProjects/Jarvis/Framework/Container/NaiveNode.h \
-    ../../../../gitProjects/Jarvis/Framework/Container/LinkedList.h \
-    ../../../../gitProjects/Jarvis/Framework/Container/Deque.h \
-    ../../../../gitProjects/Jarvis/Framework/Container/Container.h \
-    ../../../../gitProjects/Jarvis/Framework/Container/ArrayListData.h \
-    ../../../../gitProjects/Jarvis/Framework/Container/ArrayList.h \
-    ../../../../gitProjects/Jarvis/Framework/Container/Alphabet.h \
-    ../../../../gitProjects/Jarvis/Framework/Container/AbstractSmartList.h \
-    ../../../../gitProjects/Jarvis/Framework/Container/AbstractSmartLinkedList.h \
-    ../../../../gitProjects/Jarvis/Framework/Container/AbstractNode.h \
-    ../../../../gitProjects/Jarvis/Framework/Container/AbstractListData.h \
-    ../../../../gitProjects/Jarvis/Framework/Container/AbstractList.h \
-    ../../../../gitProjects/Jarvis/Framework/Container/AbstractLinkedList.h
+    ../../../../gitProjects/Jarvis/Framework/Arithmetic/ScopeInfo.h \
+    ../../../../gitProjects/Jarvis/Framework/Arithmetic/Matrix.h
 
 SOURCES += \
     ../../../../gitProjects/Jarvis/Framework/Word.cpp \
@@ -82,7 +59,6 @@ SOURCES += \
     ../../../../gitProjects/Jarvis/Framework/Object.cpp \
     ../../../../gitProjects/Jarvis/Framework/Number.cpp \
     ../../../../gitProjects/Jarvis/Framework/Natural.cpp \
-    ../../../../gitProjects/Jarvis/Framework/Matrix.cpp \
     ../../../../gitProjects/Jarvis/Framework/MathObject.cpp \
     ../../../../gitProjects/Jarvis/Framework/Integer.cpp \
     ../../../../gitProjects/Jarvis/Framework/Graph.cpp \
@@ -103,5 +79,6 @@ SOURCES += \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Cosinus.cpp \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Assignment.cpp \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Addition.cpp \
-    ../../../../gitProjects/Jarvis/Framework/Arithmetic/AbstractLevelingOperation.cpp
+    ../../../../gitProjects/Jarvis/Framework/Arithmetic/AbstractLevelingOperation.cpp \
+    ../../../../gitProjects/Jarvis/Framework/Arithmetic/Matrix.cpp
 
