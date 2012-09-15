@@ -71,7 +71,8 @@ HEADERS += \
     ../../../../gitProjects/Jarvis/Framework/Container/AbstractNode.h \
     ../../../../gitProjects/Jarvis/Framework/Container/AbstractListData.h \
     ../../../../gitProjects/Jarvis/Framework/Container/AbstractList.h \
-    ../../../../gitProjects/Jarvis/Framework/Container/AbstractLinkedList.h
+    ../../../../gitProjects/Jarvis/Framework/Container/AbstractLinkedList.h \
+    ../../../../gitProjects/Jarvis/Framework/Arithmetic/LazyEval.h
 
 SOURCES += \
     ../../../../gitProjects/Jarvis/Framework/Word.cpp \
@@ -103,5 +104,6 @@ SOURCES += \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Cosinus.cpp \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Assignment.cpp \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Addition.cpp \
-    ../../../../gitProjects/Jarvis/Framework/Arithmetic/AbstractLevelingOperation.cpp
+    ../../../../gitProjects/Jarvis/Framework/Arithmetic/AbstractLevelingOperation.cpp \
+    ../../../../gitProjects/Jarvis/Framework/Arithmetic/LazyEval.cpp
 
