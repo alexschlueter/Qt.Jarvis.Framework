@@ -48,7 +48,8 @@ HEADERS += \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/AbstractBinaryOperation.h \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/AbstractArithmetic.h \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/ScopeInfo.h \
-    ../../../../gitProjects/Jarvis/Framework/Arithmetic/Matrix.h
+    ../../../../gitProjects/Jarvis/Framework/Arithmetic/Matrix.h \
+    ../../../../gitProjects/Jarvis/Framework/Arithmetic/LazyEval.h
 
 SOURCES += \
     ../../../../gitProjects/Jarvis/Framework/Word.cpp \
@@ -80,5 +81,6 @@ SOURCES += \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Assignment.cpp \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Addition.cpp \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/AbstractLevelingOperation.cpp \
-    ../../../../gitProjects/Jarvis/Framework/Arithmetic/Matrix.cpp
+    ../../../../gitProjects/Jarvis/Framework/Arithmetic/Matrix.cpp \
+    ../../../../gitProjects/Jarvis/Framework/Arithmetic/LazyEval.cpp
 
