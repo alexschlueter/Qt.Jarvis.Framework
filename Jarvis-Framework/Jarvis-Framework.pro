@@ -50,7 +50,10 @@ HEADERS += \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/ScopeInfo.h \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Matrix.h \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/LazyEval.h \
-    ../../../../gitProjects/Jarvis/Framework/Arithmetic/Modulo.h
+    ../../../../gitProjects/Jarvis/Framework/Arithmetic/Modulo.h \
+    ../../../../gitProjects/Jarvis/Framework/Arithmetic/Min.h \
+    ../../../../gitProjects/Jarvis/Framework/Arithmetic/Max.h \
+    ../../../../gitProjects/Jarvis/Framework/Arithmetic/Selection.h
 
 SOURCES += \
     ../../../../gitProjects/Jarvis/Framework/Word.cpp \
@@ -84,5 +87,8 @@ SOURCES += \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/AbstractLevelingOperation.cpp \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Matrix.cpp \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/LazyEval.cpp \
-    ../../../../gitProjects/Jarvis/Framework/Arithmetic/Modulo.cpp
+    ../../../../gitProjects/Jarvis/Framework/Arithmetic/Modulo.cpp \
+    ../../../../gitProjects/Jarvis/Framework/Arithmetic/Min.cpp \
+    ../../../../gitProjects/Jarvis/Framework/Arithmetic/Max.cpp \
+    ../../../../gitProjects/Jarvis/Framework/Arithmetic/Selection.cpp
 
