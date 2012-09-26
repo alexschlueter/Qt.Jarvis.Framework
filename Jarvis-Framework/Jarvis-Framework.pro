@@ -38,7 +38,6 @@ HEADERS += \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Integral.h \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Function.h \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Exponentiation.h \
-    ../../../../gitProjects/Jarvis/Framework/Arithmetic/EvalInfo.h \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Division.h \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Cosinus.h \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Assignment.h \
@@ -46,14 +45,18 @@ HEADERS += \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/AbstractUnaryOperation.h \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/AbstractLevelingOperation.h \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/AbstractBinaryOperation.h \
-    ../../../../gitProjects/Jarvis/Framework/Arithmetic/AbstractArithmetic.h \
-    ../../../../gitProjects/Jarvis/Framework/Arithmetic/ScopeInfo.h \
+    ../../../../gitProjects/Jarvis/Framework/Arithmetic/AbstractExpression.h \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Matrix.h \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/LazyEval.h \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Modulo.h \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Min.h \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Max.h \
-    ../../../../gitProjects/Jarvis/Framework/Arithmetic/Selection.h
+    ../../../../gitProjects/Jarvis/Framework/Arithmetic/Selection.h \
+    ../../../../gitProjects/Jarvis/Framework/Arithmetic/Range.h \
+    ../../../../gitProjects/Jarvis/Framework/Arithmetic/Scope.h \
+    ../../../../gitProjects/Jarvis/Framework/Arithmetic/Definition.h \
+    ../../../../gitProjects/Jarvis/Framework/Arithmetic/FunctionDefinition.h \
+    ../../../../gitProjects/Jarvis/Framework/Arithmetic/ScopeExpression.h
 
 SOURCES += \
     ../../../../gitProjects/Jarvis/Framework/Word.cpp \
@@ -90,5 +93,8 @@ SOURCES += \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Modulo.cpp \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Min.cpp \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Max.cpp \
-    ../../../../gitProjects/Jarvis/Framework/Arithmetic/Selection.cpp
+    ../../../../gitProjects/Jarvis/Framework/Arithmetic/Selection.cpp \
+    ../../../../gitProjects/Jarvis/Framework/Arithmetic/Range.cpp \
+    ../../../../gitProjects/Jarvis/Framework/Arithmetic/Scope.cpp \
+    ../../../../gitProjects/Jarvis/Framework/Arithmetic/ScopeExpression.cpp
 
