@@ -33,7 +33,6 @@ HEADERS += \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Sinus.h \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Root.h \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/NumberArith.h \
-    ../../../../gitProjects/Jarvis/Framework/Arithmetic/Multiplication.h \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Logarithm.h \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Integral.h \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Function.h \
@@ -41,12 +40,10 @@ HEADERS += \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Division.h \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Cosinus.h \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Assignment.h \
-    ../../../../gitProjects/Jarvis/Framework/Arithmetic/Addition.h \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/AbstractUnaryOperation.h \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/AbstractLevelingOperation.h \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/AbstractBinaryOperation.h \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/AbstractExpression.h \
-    ../../../../gitProjects/Jarvis/Framework/Arithmetic/Matrix.h \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/LazyEval.h \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Modulo.h \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Min.h \
@@ -54,9 +51,14 @@ HEADERS += \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Selection.h \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Range.h \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Scope.h \
-    ../../../../gitProjects/Jarvis/Framework/Arithmetic/Definition.h \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/FunctionDefinition.h \
-    ../../../../gitProjects/Jarvis/Framework/Arithmetic/ScopeExpression.h
+    ../../../../gitProjects/Jarvis/Framework/Arithmetic/BinaryMultiplication.h \
+    ../../../../gitProjects/Jarvis/Framework/Arithmetic/AbstractMathExpression.h \
+    ../../../../gitProjects/Jarvis/Framework/Arithmetic/List.h \
+    ../../../../gitProjects/Jarvis/Framework/Arithmetic/LevelMultiplication.h \
+    ../../../../gitProjects/Jarvis/Framework/Arithmetic/Addition.h \
+    ../../../../gitProjects/Jarvis/Framework/Arithmetic/FunctionSignature.h \
+    ../../../../gitProjects/Jarvis/Framework/Arithmetic/VariableDefinition.h
 
 SOURCES += \
     ../../../../gitProjects/Jarvis/Framework/Word.cpp \
@@ -78,7 +80,6 @@ SOURCES += \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Sinus.cpp \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Root.cpp \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/NumberArith.cpp \
-    ../../../../gitProjects/Jarvis/Framework/Arithmetic/Multiplication.cpp \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Logarithm.cpp \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Integral.cpp \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Function.cpp \
@@ -86,9 +87,7 @@ SOURCES += \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Division.cpp \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Cosinus.cpp \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Assignment.cpp \
-    ../../../../gitProjects/Jarvis/Framework/Arithmetic/Addition.cpp \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/AbstractLevelingOperation.cpp \
-    ../../../../gitProjects/Jarvis/Framework/Arithmetic/Matrix.cpp \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/LazyEval.cpp \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Modulo.cpp \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Min.cpp \
@@ -96,5 +95,9 @@ SOURCES += \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Selection.cpp \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Range.cpp \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Scope.cpp \
-    ../../../../gitProjects/Jarvis/Framework/Arithmetic/ScopeExpression.cpp
+    ../../../../gitProjects/Jarvis/Framework/Arithmetic/BinaryMultiplication.cpp \
+    ../../../../gitProjects/Jarvis/Framework/Arithmetic/AbstractMathExpression.cpp \
+    ../../../../gitProjects/Jarvis/Framework/Arithmetic/List.cpp \
+    ../../../../gitProjects/Jarvis/Framework/Arithmetic/LevelMultiplication.cpp \
+    ../../../../gitProjects/Jarvis/Framework/Arithmetic/Addition.cpp
 
