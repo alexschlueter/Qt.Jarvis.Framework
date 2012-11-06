@@ -53,12 +53,12 @@ HEADERS += \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Scope.h \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/FunctionDefinition.h \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/BinaryMultiplication.h \
-    ../../../../gitProjects/Jarvis/Framework/Arithmetic/AbstractMathExpression.h \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/List.h \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/LevelMultiplication.h \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Addition.h \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/FunctionSignature.h \
-    ../../../../gitProjects/Jarvis/Framework/Arithmetic/VariableDefinition.h
+    ../../../../gitProjects/Jarvis/Framework/Arithmetic/VariableDefinition.h \
+    ../../../../gitProjects/Jarvis/Framework/Arithmetic/TypeInfo.h
 
 SOURCES += \
     ../../../../gitProjects/Jarvis/Framework/Word.cpp \
@@ -96,8 +96,8 @@ SOURCES += \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Range.cpp \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/Scope.cpp \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/BinaryMultiplication.cpp \
-    ../../../../gitProjects/Jarvis/Framework/Arithmetic/AbstractMathExpression.cpp \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/List.cpp \
     ../../../../gitProjects/Jarvis/Framework/Arithmetic/LevelMultiplication.cpp \
-    ../../../../gitProjects/Jarvis/Framework/Arithmetic/Addition.cpp
+    ../../../../gitProjects/Jarvis/Framework/Arithmetic/Addition.cpp \
+    ../../../../gitProjects/Jarvis/Framework/Arithmetic/TypeInfo.cpp
 
