@@ -28,9 +28,7 @@ HEADERS += \
     ../../../../gitProjects/Jarvis/Framework/Expression.h \
     ../../../../gitProjects/Jarvis/Framework/Exception.h \
     ../../../../gitProjects/Jarvis/Framework/expression/Variable.h \
-    ../../../../gitProjects/Jarvis/Framework/expression/Tangent.h \
     ../../../../gitProjects/Jarvis/Framework/expression/Subtraction.h \
-    ../../../../gitProjects/Jarvis/Framework/expression/Sinus.h \
     ../../../../gitProjects/Jarvis/Framework/expression/Root.h \
     ../../../../gitProjects/Jarvis/Framework/expression/NumberArith.h \
     ../../../../gitProjects/Jarvis/Framework/expression/Logarithm.h \
@@ -38,7 +36,6 @@ HEADERS += \
     ../../../../gitProjects/Jarvis/Framework/expression/Function.h \
     ../../../../gitProjects/Jarvis/Framework/expression/Exponentiation.h \
     ../../../../gitProjects/Jarvis/Framework/expression/Division.h \
-    ../../../../gitProjects/Jarvis/Framework/expression/Cosinus.h \
     ../../../../gitProjects/Jarvis/Framework/expression/Assignment.h \
     ../../../../gitProjects/Jarvis/Framework/expression/AbstractUnaryOperation.h \
     ../../../../gitProjects/Jarvis/Framework/expression/AbstractLevelingOperation.h \
@@ -76,7 +73,8 @@ HEADERS += \
     ../../../../gitProjects/Jarvis/Framework/expression/FunctionDefinitionExpression.h \
     ../../../../gitProjects/Jarvis/Framework/expression/ImportExpression.h \
     ../../../../gitProjects/Jarvis/Framework/expression/CFunctionBody.h \
-    ../../../../gitProjects/Jarvis/Framework/expression/FactorialExpression.h
+    ../../../../gitProjects/Jarvis/Framework/expression/FactorialExpression.h \
+    ../../../../gitProjects/Jarvis/Framework/expression/VectorExpression.h
 
 SOURCES += \
     ../../../../gitProjects/Jarvis/Framework/Word.cpp \
@@ -93,9 +91,7 @@ SOURCES += \
     ../../../../gitProjects/Jarvis/Framework/Expression.cpp \
     ../../../../gitProjects/Jarvis/Framework/Exception.cpp \
     ../../../../gitProjects/Jarvis/Framework/expression/Variable.cpp \
-    ../../../../gitProjects/Jarvis/Framework/expression/Tangent.cpp \
     ../../../../gitProjects/Jarvis/Framework/expression/Subtraction.cpp \
-    ../../../../gitProjects/Jarvis/Framework/expression/Sinus.cpp \
     ../../../../gitProjects/Jarvis/Framework/expression/Root.cpp \
     ../../../../gitProjects/Jarvis/Framework/expression/NumberArith.cpp \
     ../../../../gitProjects/Jarvis/Framework/expression/Logarithm.cpp \
@@ -103,7 +99,6 @@ SOURCES += \
     ../../../../gitProjects/Jarvis/Framework/expression/Function.cpp \
     ../../../../gitProjects/Jarvis/Framework/expression/Exponentiation.cpp \
     ../../../../gitProjects/Jarvis/Framework/expression/Division.cpp \
-    ../../../../gitProjects/Jarvis/Framework/expression/Cosinus.cpp \
     ../../../../gitProjects/Jarvis/Framework/expression/Assignment.cpp \
     ../../../../gitProjects/Jarvis/Framework/expression/AbstractLevelingOperation.cpp \
     ../../../../gitProjects/Jarvis/Framework/expression/LazyEval.cpp \
@@ -134,4 +129,5 @@ SOURCES += \
     ../../../../gitProjects/Jarvis/Framework/expression/FunctionDeclarationExpression.cpp \
     ../../../../gitProjects/Jarvis/Framework/expression/FunctionDefinitionExpression.cpp \
     ../../../../gitProjects/Jarvis/Framework/expression/ImportExpression.cpp \
-    ../../../../gitProjects/Jarvis/Framework/expression/FactorialExpression.cpp
+    ../../../../gitProjects/Jarvis/Framework/expression/FactorialExpression.cpp \
+    ../../../../gitProjects/Jarvis/Framework/expression/VectorExpression.cpp
