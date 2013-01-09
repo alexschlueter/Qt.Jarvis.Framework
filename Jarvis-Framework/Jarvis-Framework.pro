@@ -3,7 +3,7 @@ TEMPLATE = lib
 CONFIG -= qt
 QMAKE_CXXFLAGS += -std=c++11
 
-INCLUDEPATH += .
+INCLUDEPATH += $$PWD
 
 Debug: DESTDIR = D:/Users/Alexander/Documents/gitProjects/Jarvis/Framework/debug
 Release: DESTDIR = D:/Users/Alexander/Documents/gitProjects/Jarvis/Framework/release
@@ -14,7 +14,6 @@ OTHER_FILES += \
 
 HEADERS += \
     ../../../../gitProjects/Jarvis/Framework/Word.h \
-    ../../../../gitProjects/Jarvis/Framework/Vector.h \
     ../../../../gitProjects/Jarvis/Framework/Utility.h \
     ../../../../gitProjects/Jarvis/Framework/Tree.h \
     ../../../../gitProjects/Jarvis/Framework/Rational.h \
@@ -27,58 +26,67 @@ HEADERS += \
     ../../../../gitProjects/Jarvis/Framework/global.h \
     ../../../../gitProjects/Jarvis/Framework/Expression.h \
     ../../../../gitProjects/Jarvis/Framework/Exception.h \
-    ../../../../gitProjects/Jarvis/Framework/expression/Variable.h \
-    ../../../../gitProjects/Jarvis/Framework/expression/Subtraction.h \
-    ../../../../gitProjects/Jarvis/Framework/expression/Root.h \
-    ../../../../gitProjects/Jarvis/Framework/expression/NumberArith.h \
-    ../../../../gitProjects/Jarvis/Framework/expression/Logarithm.h \
-    ../../../../gitProjects/Jarvis/Framework/expression/Integral.h \
-    ../../../../gitProjects/Jarvis/Framework/expression/Function.h \
-    ../../../../gitProjects/Jarvis/Framework/expression/Exponentiation.h \
-    ../../../../gitProjects/Jarvis/Framework/expression/Division.h \
-    ../../../../gitProjects/Jarvis/Framework/expression/Assignment.h \
-    ../../../../gitProjects/Jarvis/Framework/expression/AbstractUnaryOperation.h \
-    ../../../../gitProjects/Jarvis/Framework/expression/AbstractLevelingOperation.h \
-    ../../../../gitProjects/Jarvis/Framework/expression/AbstractBinaryOperation.h \
-    ../../../../gitProjects/Jarvis/Framework/expression/AbstractExpression.h \
-    ../../../../gitProjects/Jarvis/Framework/expression/LazyEval.h \
-    ../../../../gitProjects/Jarvis/Framework/expression/Modulo.h \
-    ../../../../gitProjects/Jarvis/Framework/expression/Selection.h \
-    ../../../../gitProjects/Jarvis/Framework/expression/Scope.h \
-    ../../../../gitProjects/Jarvis/Framework/expression/FunctionDefinition.h \
-    ../../../../gitProjects/Jarvis/Framework/expression/BinaryMultiplication.h \
-    ../../../../gitProjects/Jarvis/Framework/expression/List.h \
-    ../../../../gitProjects/Jarvis/Framework/expression/LevelMultiplication.h \
-    ../../../../gitProjects/Jarvis/Framework/expression/Addition.h \
-    ../../../../gitProjects/Jarvis/Framework/expression/FunctionSignature.h \
-    ../../../../gitProjects/Jarvis/Framework/expression/VariableDefinition.h \
-    ../../../../gitProjects/Jarvis/Framework/expression/TypeInfo.h \
-    ../../../../gitProjects/Jarvis/Framework/expression/ScopeExpression.h \
-    ../../../../gitProjects/Jarvis/Framework/expression/OutputExpression.h \
-    ../../../../gitProjects/Jarvis/Framework/expression/BoolValue.h \
-    ../../../../gitProjects/Jarvis/Framework/expression/IfExpression.h \
-    ../../../../gitProjects/Jarvis/Framework/expression/EqualityExpression.h \
-    ../../../../gitProjects/Jarvis/Framework/expression/NegationExpression.h \
-    ../../../../gitProjects/Jarvis/Framework/expression/LogicalAndExpression.h \
-    ../../../../gitProjects/Jarvis/Framework/expression/LogicalOrExpression.h \
-    ../../../../gitProjects/Jarvis/Framework/expression/LessExpression.h \
-    ../../../../gitProjects/Jarvis/Framework/expression/LessOrEqualExpression.h \
-    ../../../../gitProjects/Jarvis/Framework/expression/GreaterExpression.h \
-    ../../../../gitProjects/Jarvis/Framework/expression/GreaterOrEqualExpression.h \
-    ../../../../gitProjects/Jarvis/Framework/expression/RangedForExpression.h \
-    ../../../../gitProjects/Jarvis/Framework/expression/MultiLineExpression.h \
-    ../../../../gitProjects/Jarvis/Framework/expression/ReturnExpression.h \
-    ../../../../gitProjects/Jarvis/Framework/expression/VariableDeclarationExpression.h \
-    ../../../../gitProjects/Jarvis/Framework/expression/FunctionDeclarationExpression.h \
-    ../../../../gitProjects/Jarvis/Framework/expression/FunctionDefinitionExpression.h \
-    ../../../../gitProjects/Jarvis/Framework/expression/ImportExpression.h \
-    ../../../../gitProjects/Jarvis/Framework/expression/CFunctionBody.h \
-    ../../../../gitProjects/Jarvis/Framework/expression/FactorialExpression.h \
-    ../../../../gitProjects/Jarvis/Framework/expression/VectorExpression.h
+    ../../../../gitProjects/Jarvis/Framework/lang/Variable.h \
+    ../../../../gitProjects/Jarvis/Framework/lang/Subtraction.h \
+    ../../../../gitProjects/Jarvis/Framework/lang/Root.h \
+    ../../../../gitProjects/Jarvis/Framework/lang/Logarithm.h \
+    ../../../../gitProjects/Jarvis/Framework/lang/Function.h \
+    ../../../../gitProjects/Jarvis/Framework/lang/Exponentiation.h \
+    ../../../../gitProjects/Jarvis/Framework/lang/Division.h \
+    ../../../../gitProjects/Jarvis/Framework/lang/Assignment.h \
+    ../../../../gitProjects/Jarvis/Framework/lang/AbstractUnaryExpression.h \
+    ../../../../gitProjects/Jarvis/Framework/lang/AbstractLevelingExpression.h \
+    ../../../../gitProjects/Jarvis/Framework/lang/AbstractBinaryExpression.h \
+    ../../../../gitProjects/Jarvis/Framework/lang/AbstractStatement.h \
+    ../../../../gitProjects/Jarvis/Framework/lang/LazyEval.h \
+    ../../../../gitProjects/Jarvis/Framework/lang/Modulo.h \
+    ../../../../gitProjects/Jarvis/Framework/lang/Scope.h \
+    ../../../../gitProjects/Jarvis/Framework/lang/FunctionDefinition.h \
+    ../../../../gitProjects/Jarvis/Framework/lang/BinaryMultiplication.h \
+    ../../../../gitProjects/Jarvis/Framework/lang/List.h \
+    ../../../../gitProjects/Jarvis/Framework/lang/LevelMultiplication.h \
+    ../../../../gitProjects/Jarvis/Framework/lang/Addition.h \
+    ../../../../gitProjects/Jarvis/Framework/lang/FunctionSignature.h \
+    ../../../../gitProjects/Jarvis/Framework/lang/VariableDefinition.h \
+    ../../../../gitProjects/Jarvis/Framework/lang/TypeInfo.h \
+    ../../../../gitProjects/Jarvis/Framework/lang/ScopeStatement.h \
+    ../../../../gitProjects/Jarvis/Framework/lang/Print.h \
+    ../../../../gitProjects/Jarvis/Framework/lang/BoolValue.h \
+    ../../../../gitProjects/Jarvis/Framework/lang/If.h \
+    ../../../../gitProjects/Jarvis/Framework/lang/Equality.h \
+    ../../../../gitProjects/Jarvis/Framework/lang/Negation.h \
+    ../../../../gitProjects/Jarvis/Framework/lang/LogicalAnd.h \
+    ../../../../gitProjects/Jarvis/Framework/lang/LogicalOr.h \
+    ../../../../gitProjects/Jarvis/Framework/lang/Less.h \
+    ../../../../gitProjects/Jarvis/Framework/lang/LessOrEqual.h \
+    ../../../../gitProjects/Jarvis/Framework/lang/Greater.h \
+    ../../../../gitProjects/Jarvis/Framework/lang/GreaterOrEqual.h \
+    ../../../../gitProjects/Jarvis/Framework/lang/RangedFor.h \
+    ../../../../gitProjects/Jarvis/Framework/lang/MultiLine.h \
+    ../../../../gitProjects/Jarvis/Framework/lang/Return.h \
+    ../../../../gitProjects/Jarvis/Framework/lang/VariableDeclaration.h \
+    ../../../../gitProjects/Jarvis/Framework/lang/FunctionDeclaration.h \
+    ../../../../gitProjects/Jarvis/Framework/lang/FunctionDefinitionStatement.h \
+    ../../../../gitProjects/Jarvis/Framework/lang/Import.h \
+    ../../../../gitProjects/Jarvis/Framework/lang/CFunctionBody.h \
+    ../../../../gitProjects/Jarvis/Framework/lang/Factorial.h \
+    ../../../../gitProjects/Jarvis/Framework/lang/Vector.h \
+    ../../../../gitProjects/Jarvis/Framework/lang/TypeCollection.h \
+    ../../../../gitProjects/Jarvis/Framework/lang/NumberValue.h \
+    ../../../../gitProjects/Jarvis/Framework/exception/JarvisException.h \
+    ../../../../gitProjects/Jarvis/Framework/exception/ExecutionException.h \
+    ../../../../gitProjects/Jarvis/Framework/exception/InvalidTreeException.h \
+    ../../../../gitProjects/Jarvis/Framework/exception/ScopeException.h \
+    ../../../../gitProjects/Jarvis/Framework/exception/FatalTypeException.h \
+    ../../../../gitProjects/Jarvis/Framework/exception/UndecidableTypeException.h \
+    ../../../../gitProjects/Jarvis/Framework/lang/FunctionScope.h \
+    ../../../../gitProjects/Jarvis/Framework/lang/Constant.h \
+    ../../../../gitProjects/Jarvis/Framework/lang/NaturalLogarithm.h \
+    ../../../../gitProjects/Jarvis/Framework/lang/AbstractExpression.h \
+    ../../../../gitProjects/Jarvis/Framework/lang/Void.h
 
 SOURCES += \
     ../../../../gitProjects/Jarvis/Framework/Word.cpp \
-    ../../../../gitProjects/Jarvis/Framework/Vector.cpp \
     ../../../../gitProjects/Jarvis/Framework/Utility.cpp \
     ../../../../gitProjects/Jarvis/Framework/Tree.cpp \
     ../../../../gitProjects/Jarvis/Framework/Rational.cpp \
@@ -90,44 +98,52 @@ SOURCES += \
     ../../../../gitProjects/Jarvis/Framework/Graph.cpp \
     ../../../../gitProjects/Jarvis/Framework/Expression.cpp \
     ../../../../gitProjects/Jarvis/Framework/Exception.cpp \
-    ../../../../gitProjects/Jarvis/Framework/expression/Variable.cpp \
-    ../../../../gitProjects/Jarvis/Framework/expression/Subtraction.cpp \
-    ../../../../gitProjects/Jarvis/Framework/expression/Root.cpp \
-    ../../../../gitProjects/Jarvis/Framework/expression/NumberArith.cpp \
-    ../../../../gitProjects/Jarvis/Framework/expression/Logarithm.cpp \
-    ../../../../gitProjects/Jarvis/Framework/expression/Integral.cpp \
-    ../../../../gitProjects/Jarvis/Framework/expression/Function.cpp \
-    ../../../../gitProjects/Jarvis/Framework/expression/Exponentiation.cpp \
-    ../../../../gitProjects/Jarvis/Framework/expression/Division.cpp \
-    ../../../../gitProjects/Jarvis/Framework/expression/Assignment.cpp \
-    ../../../../gitProjects/Jarvis/Framework/expression/AbstractLevelingOperation.cpp \
-    ../../../../gitProjects/Jarvis/Framework/expression/LazyEval.cpp \
-    ../../../../gitProjects/Jarvis/Framework/expression/Modulo.cpp \
-    ../../../../gitProjects/Jarvis/Framework/expression/Selection.cpp \
-    ../../../../gitProjects/Jarvis/Framework/expression/Scope.cpp \
-    ../../../../gitProjects/Jarvis/Framework/expression/BinaryMultiplication.cpp \
-    ../../../../gitProjects/Jarvis/Framework/expression/List.cpp \
-    ../../../../gitProjects/Jarvis/Framework/expression/LevelMultiplication.cpp \
-    ../../../../gitProjects/Jarvis/Framework/expression/Addition.cpp \
-    ../../../../gitProjects/Jarvis/Framework/expression/TypeInfo.cpp \
-    ../../../../gitProjects/Jarvis/Framework/expression/ScopeExpression.cpp \
-    ../../../../gitProjects/Jarvis/Framework/expression/OutputExpression.cpp \
-    ../../../../gitProjects/Jarvis/Framework/expression/BoolValue.cpp \
-    ../../../../gitProjects/Jarvis/Framework/expression/IfExpression.cpp \
-    ../../../../gitProjects/Jarvis/Framework/expression/EqualityExpression.cpp \
-    ../../../../gitProjects/Jarvis/Framework/expression/NegationExpression.cpp \
-    ../../../../gitProjects/Jarvis/Framework/expression/LogicalAndExpression.cpp \
-    ../../../../gitProjects/Jarvis/Framework/expression/LogicalOrExpression.cpp \
-    ../../../../gitProjects/Jarvis/Framework/expression/LessExpression.cpp \
-    ../../../../gitProjects/Jarvis/Framework/expression/LessOrEqualExpression.cpp \
-    ../../../../gitProjects/Jarvis/Framework/expression/GreaterExpression.cpp \
-    ../../../../gitProjects/Jarvis/Framework/expression/GreaterOrEqualExpression.cpp \
-    ../../../../gitProjects/Jarvis/Framework/expression/RangedForExpression.cpp \
-    ../../../../gitProjects/Jarvis/Framework/expression/MultiLineExpression.cpp \
-    ../../../../gitProjects/Jarvis/Framework/expression/ReturnExpression.cpp \
-    ../../../../gitProjects/Jarvis/Framework/expression/VariableDeclarationExpression.cpp \
-    ../../../../gitProjects/Jarvis/Framework/expression/FunctionDeclarationExpression.cpp \
-    ../../../../gitProjects/Jarvis/Framework/expression/FunctionDefinitionExpression.cpp \
-    ../../../../gitProjects/Jarvis/Framework/expression/ImportExpression.cpp \
-    ../../../../gitProjects/Jarvis/Framework/expression/FactorialExpression.cpp \
-    ../../../../gitProjects/Jarvis/Framework/expression/VectorExpression.cpp
+    ../../../../gitProjects/Jarvis/Framework/lang/Variable.cpp \
+    ../../../../gitProjects/Jarvis/Framework/lang/Subtraction.cpp \
+    ../../../../gitProjects/Jarvis/Framework/lang/Root.cpp \
+    ../../../../gitProjects/Jarvis/Framework/lang/Logarithm.cpp \
+    ../../../../gitProjects/Jarvis/Framework/lang/Function.cpp \
+    ../../../../gitProjects/Jarvis/Framework/lang/Exponentiation.cpp \
+    ../../../../gitProjects/Jarvis/Framework/lang/Division.cpp \
+    ../../../../gitProjects/Jarvis/Framework/lang/Assignment.cpp \
+    ../../../../gitProjects/Jarvis/Framework/lang/AbstractLevelingExpression.cpp \
+    ../../../../gitProjects/Jarvis/Framework/lang/LazyEval.cpp \
+    ../../../../gitProjects/Jarvis/Framework/lang/Modulo.cpp \
+    ../../../../gitProjects/Jarvis/Framework/lang/Scope.cpp \
+    ../../../../gitProjects/Jarvis/Framework/lang/BinaryMultiplication.cpp \
+    ../../../../gitProjects/Jarvis/Framework/lang/List.cpp \
+    ../../../../gitProjects/Jarvis/Framework/lang/LevelMultiplication.cpp \
+    ../../../../gitProjects/Jarvis/Framework/lang/Addition.cpp \
+    ../../../../gitProjects/Jarvis/Framework/lang/TypeInfo.cpp \
+    ../../../../gitProjects/Jarvis/Framework/lang/ScopeStatement.cpp \
+    ../../../../gitProjects/Jarvis/Framework/lang/Print.cpp \
+    ../../../../gitProjects/Jarvis/Framework/lang/BoolValue.cpp \
+    ../../../../gitProjects/Jarvis/Framework/lang/If.cpp \
+    ../../../../gitProjects/Jarvis/Framework/lang/Equality.cpp \
+    ../../../../gitProjects/Jarvis/Framework/lang/Negation.cpp \
+    ../../../../gitProjects/Jarvis/Framework/lang/LogicalAnd.cpp \
+    ../../../../gitProjects/Jarvis/Framework/lang/LogicalOr.cpp \
+    ../../../../gitProjects/Jarvis/Framework/lang/Less.cpp \
+    ../../../../gitProjects/Jarvis/Framework/lang/LessOrEqual.cpp \
+    ../../../../gitProjects/Jarvis/Framework/lang/Greater.cpp \
+    ../../../../gitProjects/Jarvis/Framework/lang/GreaterOrEqual.cpp \
+    ../../../../gitProjects/Jarvis/Framework/lang/RangedFor.cpp \
+    ../../../../gitProjects/Jarvis/Framework/lang/MultiLine.cpp \
+    ../../../../gitProjects/Jarvis/Framework/lang/Return.cpp \
+    ../../../../gitProjects/Jarvis/Framework/lang/VariableDeclaration.cpp \
+    ../../../../gitProjects/Jarvis/Framework/lang/FunctionDeclaration.cpp \
+    ../../../../gitProjects/Jarvis/Framework/lang/FunctionDefinitionStatement.cpp \
+    ../../../../gitProjects/Jarvis/Framework/lang/Import.cpp \
+    ../../../../gitProjects/Jarvis/Framework/lang/Factorial.cpp \
+    ../../../../gitProjects/Jarvis/Framework/lang/Vector.cpp \
+    ../../../../gitProjects/Jarvis/Framework/lang/TypeCollection.cpp \
+    ../../../../gitProjects/Jarvis/Framework/lang/NumberValue.cpp \
+    ../../../../gitProjects/Jarvis/Framework/exception/ScopeException.cpp \
+    ../../../../gitProjects/Jarvis/Framework/exception/ExecutionException.cpp \
+    ../../../../gitProjects/Jarvis/Framework/lang/FunctionSignature.cpp \
+    ../../../../gitProjects/Jarvis/Framework/exception/FatalTypeException.cpp \
+    ../../../../gitProjects/Jarvis/Framework/lang/FunctionScope.cpp \
+    ../../../../gitProjects/Jarvis/Framework/lang/Constant.cpp \
+    ../../../../gitProjects/Jarvis/Framework/lang/NaturalLogarithm.cpp \
+    ../../../../gitProjects/Jarvis/Framework/lang/AbstractStatement.cpp \
+    ../../../../gitProjects/Jarvis/Framework/lang/AbstractExpression.cpp
