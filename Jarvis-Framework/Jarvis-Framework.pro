@@ -3,7 +3,7 @@ TEMPLATE = lib
 CONFIG -= qt
 QMAKE_CXXFLAGS += -std=c++11
 
-INCLUDEPATH += $$PWD
+INCLUDEPATH += $$OUT_PWD
 
 Debug: DESTDIR = D:/Users/Alexander/Documents/gitProjects/Jarvis/Framework/debug
 Release: DESTDIR = D:/Users/Alexander/Documents/gitProjects/Jarvis/Framework/release
